@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel='shortcut icon' href='images/favicon.ico'>
+    <link rel='stylesheet' type='text/css' href='css/main.css'>
+    <link rel='stylesheet' type='text/css' href='css/navbar.css'>
+    <meta name='viewport' content='width=device-width'>
+    <title>Course Management Site</title>
+</head>
+<body>
+<div id='main-container'>
+       <div id='header'>  
+      <div class='settings'><a href='AddNewUser.html'>Add New User</a><a href='#'>Logout</a></div>
+        <div class='uwmlogo'> 
+            <a href='https://www4.uwm.edu/' target='_new'>
+                <img src='images/logo_uwm.png'><img>
+            </a>
+        </div>
+        <div class='header-title'><h2>CMS</h2></div>
+        <div id='navbar'>
+        <ul>
+           <li class='active has-sub'><a href='#'>Courses</a>
+            <ul>
+              <li><a href='AssignProfToCourse.html'>Assign Professor To Course</a></li>
+              <li><a href='#'>Assign TA To Course</a></li>
+              <li><a href='CreateCourse.html'>Create a Course</a></li>
+			  <li><a href='CreateLabDiscussion.html'>Create a Lab/Discussion</a></li>
+              <li><a href='courses.html'>View All Courses</a></li>
+            </ul>
+           </li>
+           <li class='active has-sub'><a href='views.html'>Schedule Views</a>
+              <ul>
+                 <li class='has-sub'><a href='#'>View 1</a>
+                    <ul>
+                       <li><a href='#'>Sub View</a></li>
+                       <li class='last'><a href='#'>Sub View</a></li>
+                    </ul>
+                 </li>
+                 <li class='has-sub'><a href='#'>View 2</a>
+                    <ul>
+                       <li><a href='#'>Sub View</a></li>
+                       <li class='last'><a href='#'>Sub View</a></li>
+                    </ul>
+                 </li>
+              </ul>
+           </li>
+           <li><a href='personal_settings.html'>Edit Info</a></li>
+           <li class='last'><a href='UserSearch.html'>User </a></li>
+        </ul>
+        </div>
+    </div>
+    <div id='content'>
+    <h2>Please Enter in the following information: </h2>
+    <form action='main_page.html' method='post'>
+      <ul style='list-style: none;'>
+        <li style='padding-bottom: 15px'>
+          <div style='display: inline-block'><label style='float: right; font-weight: bold; text-align: right; width: 75px'>Title: </label></div>
+          <div style='display: inline-block; width: 160px'><input style='display: inline-block; width: 150px; float: right' type='textbox' value=''></div>
+        </li>
+        <li style='padding-bottom: 15px'>
+          <div style='display: inline-block'><label style='float: right; font-weight: bold; text-align: right; width: 75px'>Course #: </label></div>
+          <div style='display: inline-block; width: 50px'><input style='width: 40px; float: right' type='textbox' value=''></div>
+        </li>
+        <li style='padding-bottom: 15px'>
+          <div style='display: inline-block'><label style='float: right; font-weight: bold; text-align: right; width: 75px'>Units: </label></div>
+          <div style='display: inline-block; width: 50px'><input style='width: 40px; float: right' type='textbox' value=''></div>
+        </li>
+        <li style='padding-bottom: 15px'>
+          <div style='display: inline-block'><label style='float: right;; width: 75px; font-weight: bold; text-align: right'>Section #: </label></div>
+          <div style='display: inline-block; width: 50px'><input style='width: 40px; float: right' type='textbox' value=''></div>
+        </li>
+        <li style='padding-bottom: 15px'>
+          <div style='display: inline-block'><label style='float: right; font-weight: bold; text-align: right; width: 75px'>Class #: </label></div>
+          <div style='display: inline-block; width: 50px'><input style='width: 40px; float: right' type='textbox' value=''></div>
+        </li>
+        <li style='padding-bottom: 15px'>          
+          <div style='display: inline-block; padding-right: 20px'><label style='float: right; font-weight: bold; text-align: right; width: 75px'>Hours: </label></div>
+          <span>Start:</span>
+            <select>
+              <option>0</option><option>1</option><option>2</option><option>3</option>
+              <option>4</option><option>5</option><option>6</option>
+              <option>7</option><option>8</option><option>9</option>
+              <option>10</option><option>11</option>
+              <option>12</option><option>13</option>
+              <option>14</option><option>15</option>
+              <option>16</option><option>17</option><option>18</option>
+              <option>19</option><option>20</option>
+              <option>21</option><option>22</option><option>23</option>
+            </select>
+            <span> &nbsp; &nbsp;</span>
+            <select>
+              <option>00</option><option>10</option>
+              <option>15</option><option>30</option>
+              <option>40</option><option>45</option><option>50</option>
+            </select>
+            <span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+             <span>End:</span>
+            <select>
+              <option>0</option><option>1</option><option>2</option><option>3</option>
+              <option>4</option><option>5</option><option>6</option>
+              <option>7</option><option>8</option><option>9</option>
+              <option>10</option><option>11</option>
+              <option>12</option><option>13</option>
+              <option>14</option><option>15</option>
+              <option>16</option><option>17</option><option>18</option>
+              <option>19</option><option>20</option>
+              <option>21</option><option>22</option><option>23</option>
+            </select>
+            <span> &nbsp; &nbsp;</span>
+            <select>
+              <option>00</option><option>10</option>
+              <option>15</option><option>30</option>
+              <option>40</option><option>45</option><option>50</option>
+            </select>
+        </li>
+        <li style='padding-bottom: 15px'>
+          <div style='display: inline-block'><label style='float: right; font-weight: bold; text-align: right; width: 75px'>Days: </br>(ex: MWF) </label></div>
+          <div style='display: inline-block; width: 50px'><input style='width: 40px; float: right' type='textbox' value=''></div>
+        </li>
+        <li style='padding-bottom: 15px'>          
+          <div style='display: inline-block; padding-right: 20px'><label style='float: right; font-weight: bold; text-align: right; width: 75px'>Dates: </label></div>
+          <span>Start:</span>
+            <select>
+              <option>1</option><option>2</option><option>3</option>
+              <option>4</option><option>5</option><option>6</option>
+              <option>7</option><option>8</option><option>9</option>
+              <option>10</option><option>11</option>
+              <option>12</option>
+            </select>
+            <span> &nbsp; / </span>
+            <select>
+              <option>1</option><option>2</option><option>3</option>
+              <option>4</option><option>5</option><option>6</option>
+              <option>7</option><option>8</option><option>9</option>
+              <option>10</option><option>11</option>
+              <option>12</option><option>13</option>
+              <option>14</option><option>15</option>
+              <option>16</option><option>17</option><option>18</option>
+              <option>19</option><option>20</option>
+              <option>21</option><option>22</option><option>23</option>
+              <option>24</option><option>25</option><option>26</option>
+              <option>27</option><option>28</option><option>29</option>
+              <option>30</option><option>31</option>
+            </select>
+            <span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span>
+             <span>End:</span>
+                <select>
+              <option>1</option><option>2</option><option>3</option>
+              <option>4</option><option>5</option><option>6</option>
+              <option>7</option><option>8</option><option>9</option>
+              <option>10</option><option>11</option>
+              <option>12</option>
+            </select>
+            <span> &nbsp; / </span>
+            <select>
+              <option>1</option><option>2</option><option>3</option>
+              <option>4</option><option>5</option><option>6</option>
+              <option>7</option><option>8</option><option>9</option>
+              <option>10</option><option>11</option>
+              <option>12</option><option>13</option>
+              <option>14</option><option>15</option>
+              <option>16</option><option>17</option><option>18</option>
+              <option>19</option><option>20</option>
+              <option>21</option><option>22</option><option>23</option>
+              <option>24</option><option>25</option><option>26</option>
+              <option>27</option><option>28</option><option>29</option>
+              <option>30</option><option>31</option>
+            </select>
+        </li>
+        <li style='padding-bottom: 15px'>
+          <div style='display: inline-block'><label style='float: right; font-weight: bold; text-align: right; width: 75px'>Instructor: </label></div>
+          <div style='display: inline-block; width: 160px'><input style='display: inline-block; width: 150px; float: right' type='textbox' value=''></div>
+        </li>
+        <li style='padding-bottom: 15px'>
+          <div style='display: inline-block'><label style='float: right; font-weight: bold; text-align: right; width: 75px'>Room #: </label></div>
+          <div style='display: inline-block; width: 50px'><input style='width: 40px; float: right' type='textbox' value=''></div>
+        </li>
+        <li style='padding-bottom: 15px'>
+          <div style='display: inline-block'><label style='float: right; font-weight: bold; text-align: right; width: 75px'>Has Lab: </label></div>
+          <div style='display: inline-block; width: 20px'><input style='width: 10px; float: right' type='checkbox' value=''></div>
+        </li>
+        <li style='padding-bottom: 15px'>
+          <div style='display: inline-block'><label style='float: right; font-weight: bold; text-align: right; width: 75px'>Has Disc: </label></div>
+          <div style='display: inline-block; width: 20px'><input style='width: 10px; float: right' type='checkbox' value=''></div>
+        </li>
+        <li style='padding-bottom: 15px'><button>Save Course</button></li>
+      </ul>
+    </form>
+  </div>
+</body>
+</html>

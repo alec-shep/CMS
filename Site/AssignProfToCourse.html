@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel='shortcut icon' href='images/favicon.ico'>
+    <link rel='stylesheet' type='text/css' href='css/main.css'>
+    <link rel='stylesheet' type='text/css' href='css/navbar.css'>
+    <meta name='viewport' content='width=device-width'>
+    <title>Course Management Site</title>
+</head>
+<body>
+<div id='main-container'>
+    <div id='header'>  
+      <div class='settings'><a href='AddNewUser.html'>Add New User</a><a href='#'>Logout</a></div>
+        <div class='uwmlogo'> 
+            <a href='https://www4.uwm.edu/' target='_new'>
+                <img src='images/logo_uwm.png'><img>
+            </a>
+        </div>
+        <div class='header-title'><h2>CMS</h2></div>
+        <div id='navbar'>
+        <ul>
+           <li class='active has-sub'><a href='#'>Courses</a>
+            <ul>
+              <li><a href='AssignProfToCourse.html'>Assign Professor To Course</a></li>
+              <li><a href='#'>Assign TA To Course</a></li>
+              <li><a href='CreateCourse.html'>Create a Course</a></li>
+			  <li><a href='CreateLabDiscussion.html'>Create a Lab/Discussion</a></li>
+              <li><a href='courses.html'>View All Courses</a></li>
+            </ul>
+           </li>
+           <li class='active has-sub'><a href='views.html'>Schedule Views</a>
+              <ul>
+                 <li class='has-sub'><a href='#'>View 1</a>
+                    <ul>
+                       <li><a href='#'>Sub View</a></li>
+                       <li class='last'><a href='#'>Sub View</a></li>
+                    </ul>
+                 </li>
+                 <li class='has-sub'><a href='#'>View 2</a>
+                    <ul>
+                       <li><a href='#'>Sub View</a></li>
+                       <li class='last'><a href='#'>Sub View</a></li>
+                    </ul>
+                 </li>
+              </ul>
+           </li>
+           <li><a href='personal_settings.html'>Edit Info</a></li>
+           <li class='last'><a href='UserSearch.html'>User </a></li>
+        </ul>
+        </div>
+    </div>
+    <div id='content'>
+    <div>
+      <form action='main_page.html' method='post'>
+        <label>Please select a Course: </label>
+          <select>
+            <option>CS 201: Introductory Computer Programming </option>
+            <option>CS 361: Introduction to Software Engineering </option>
+            <option>CS 351: Data Structures and Algorithms </option>
+          </select>
+          <table style='padding-top: 20px'>
+            <tr style='padding-bottom: 10px'>
+              <td> <strong> Course Number</strong></td>
+              <td style='padding-left: 10px'> <strong> Lecture # (Class #)</strong></td>
+              <td style='padding-left: 10px'> <strong> Current Instructor</strong></td>         
+            </tr>
+            <tr>
+              <td> <span style='padding: 15px'> CS 201</span></td>
+              <td> <span style='padding: 15px'> 401 (40538)</span></td>
+              <td> <input style='padding-left: 10px' value='Sorenson, Robert' type='textbox'></td>         
+            </tr>
+            <tr>
+              <td> <span style='padding: 15px'> CS 201</span></td>
+              <td> <span style='padding: 15px'> 402 (40539)</span></td>
+              <td>  <input style='padding-left: 10px' value='Samara, Kamil' type='textbox'></td>         
+            </tr>
+          </table>
+        </div>
+        <div style='padding-top: 35px;'> 
+          <button type='submit'>Save Changes</button>
+          <button type='button'>Cancel Changes</button>
+        </div>
+      </div>
+    </form>
+</div>
+</body>
+</html>

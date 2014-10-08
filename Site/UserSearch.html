@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel='shortcut icon' href='images/favicon.ico'>
+    <link rel='stylesheet' type='text/css' href='css/main.css'>
+    <link rel='stylesheet' type='text/css' href='css/navbar.css'>
+	<link rel='stylesheet' type='text/css' href='css/navbar.css'>
+  <link rel='stylesheet' type='text/css' href='css/user.css'>
+    <meta name='viewport' content='width=device-width'>
+    <title>Course Management Site</title>
+</head>
+<style>
+  h1{
+    font-family: verdana;
+    font-size: 100%;
+  }
+  h2{
+    font-family: verdana;
+    font-size: 85%;
+  }
+   h3{
+    font-family: verdana;
+    font-size: 150%;
+  }
+  .containerRJP{
+    width: 200px;
+    clear: both;
+  }
+  .containerRJP input{
+    width: 100%;
+    clear: both;
+  }
+  .boxedResult{
+    border: 2px solid black;
+    padding: 3px;
+  }
+</style>
+<body>
+<div id='main-container'>
+    <div id='header'>  
+      <div class='settings'><a href='AddNewUser.html'>Add New User</a><a href='#'>Logout</a></div>
+        <div class='uwmlogo'> 
+            <a href='https://www4.uwm.edu/' target='_new'>
+                <img src='images/logo_uwm.png'><img>
+            </a>
+        </div>
+        <div class='header-title'><h2>CMS</h2></div>
+        <div id='navbar'>
+        <ul>
+           <li class='active has-sub'><a href='#'>Courses</a>
+            <ul>
+              <li><a href='AssignProfToCourse.html'>Assign Professor To Course</a></li>
+              <li><a href='#'>Assign TA To Course</a></li>
+              <li><a href='CreateCourse.html'>Create a Course</a></li>
+			  <li><a href='CreateLabDiscussion.html'>Create a Lab/Discussion</a></li>
+              <li><a href='courses.html'>View All Courses</a></li>
+            </ul>
+           </li>
+           <li class='active has-sub'><a href='views.html'>Schedule Views</a>
+              <ul>
+                 <li class='has-sub'><a href='#'>View 1</a>
+                    <ul>
+                       <li><a href='#'>Sub View</a></li>
+                       <li class='last'><a href='#'>Sub View</a></li>
+                    </ul>
+                 </li>
+                 <li class='has-sub'><a href='#'>View 2</a>
+                    <ul>
+                       <li><a href='#'>Sub View</a></li>
+                       <li class='last'><a href='#'>Sub View</a></li>
+                    </ul>
+                 </li>
+              </ul>
+           </li>
+           <li><a href='personal_settings.html'>Edit Info</a></li>
+           <li class='last'><a href='UserSearch.html'>User </a></li>
+        </ul>
+        </div>
+    </div>
+    
+
+<div id='navRJP'>
+<div>
+    <h1> Search by Name:</h1>
+      <form>
+      <h2>First name:<br>
+        <input type='text' name='firstname'><br>
+        
+      Last name: <br>
+        <input type='text' name='lastname'><br>
+        <input type='submit' value='Submit'>
+        </h2>
+      </form>
+    </div>
+    <div>
+    <h1> Search CS Employee Database:</h1>
+
+    </div>
+    <div>
+      <select>
+        <option selected>Employee:</option>
+        <option>Alex Smith</option>
+        <option>Allan Grolsch</option>
+        <option>Jake Boole</option>
+        <option>Homer Simpson</option>
+      </select>
+    </div>
+    <br></br>
+    <div id='headerRJP'>
+</div>
+</div>
+
+<div id='sectionRJP'>
+
+<img src='images/People.png' alt='PeopleIcon' height='30' width='30'/>
+<div class='containerRJP'>
+<h3>Homer Simpson</h3>
+<form>
+ <label>Email:</label>
+ <div class='boxedResult'>core_meltdown@doh.com</div>
+ <br>
+<!--  <input type='textRJP/css'  name='first' readonly=''<output>asdf </output> ><br /> -->
+ <label>Phone:</label>
+ <div class='boxedResult'>414-555-1234</div>
+ <br>
+  <label>Office:</label>
+ <div class='boxedResult'>EMS 444</div>
+  <br>
+  <label>Discipline:</label>
+ <div class='boxedResult'>Nuclear Technician</div>
+ <!-- <input type='text' name='last'><br /> -->
+ <!-- <label>Email</label>
+ <input type='text' name='email'><br /> -->
+ <p align='right' style='color:blue'><u>Weekly Schedule</u><br><u>Send Email</u></p>
+</form>
+</div>
+
+<!-- <p>
+User Type:     <input type='text' value='Administration' class='field left' readonly>
+</p>
+<p>
+Panther ID:     <input type='text' value='098765432' class='field left' readonly>
+<p>
+  Email:     <input type='text' value='core_meltdown@doh.com' class='field left' readonly>
+</p>
+<p>
+  Phone:     <input type='text' value='414-555-1234' class='field left' readonly>
+</p> -->
+</div>
+<div id='footerRJP'>
+Legal Privacy Feedback
+</div>
+
+
+    <div id='content'>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non odio lacinia, fermentum arcu non, ultrices neque.
+  </div>
+  <div align='bottom'></div>
+</div>
+</body>
+</html>

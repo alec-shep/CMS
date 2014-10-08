@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel='shortcut icon' href='images/favicon.ico'>
+    <link rel='stylesheet' type='text/css' href='css/main.css'>
+    <link rel='stylesheet' type='text/css' href='css/navbar.css'>
+	<link rel='stylesheet' type='text/css' href='css/personal_settings.css'>
+    <meta name='viewport' content='width=device-width'>
+    <title>Course Management Site</title>
+</head>
+<body>
+<div id='main-container'>
+    <div id='header'>  
+    	<div class='settings'><a href='AddNewUser.html'>Add New User</a><a href='#'>Logout</a></div>
+        <div class='uwmlogo'> 
+            <a href='https://www4.uwm.edu/' target='_new'>
+                <img src='images/logo_uwm.png'><img>
+            </a>
+        </div>
+        <div class='header-title'><h2>CMS</h2></div>
+        <div id='navbar'>
+        <ul>
+           <li class='active has-sub'><a href='#'>Courses</a>
+           	<ul>
+           		<li><a href='AssignProfToCourse.html'>Assign Professor To Course</a></li>
+           		<li><a href='#'>Assign TA To Course</a></li>
+           		<li><a href='CreateCourse.html'>Create a Course</a></li>
+				<li><a href='CreateLabDiscussion.html'>Create a Lab/Discussion</a></li>
+           		<li><a href='courses.html'>View All Courses</a></li>
+           	</ul>
+           </li>
+           <li class='active has-sub'><a href='views.html'>Schedule Views</a>
+              <ul>
+                 <li class='has-sub'><a href='#'>View 1</a>
+                    <ul>
+                       <li><a href='#'>Sub View</a></li>
+                       <li class='last'><a href='#'>Sub View</a></li>
+                    </ul>
+                 </li>
+                 <li class='has-sub'><a href='#'>View 2</a>
+                    <ul>
+                       <li><a href='#'>Sub View</a></li>
+                       <li class='last'><a href='#'>Sub View</a></li>
+                    </ul>
+                 </li>
+              </ul>
+           </li>
+           <li><a href='personal_settings.html'>Edit Info</a></li>
+           <li class='last'><a href='UserSearch.html'>User </a></li>
+        </ul>
+        </div>
+    </div>
+    <div id='content'>
+	<div id= 'profile'>
+		Edit MY User Info
+	</div>
+	<br/>
+	<div id='name'>
+		Rainier L Wolfcastle
+	</div>
+	
+	<br/>
+
+	<div id= 'image'>
+	<img src='https://uwm.courses.wisconsin.edu/d2l/img/0/Framework.UserProfileBadge.actProfile100.png?v=10.3.0.791-295'/>
+	<br/>
+	<button type='button'>
+		Change Photo
+	</button>
+	</div>
+
+	<div id='name_form'>
+		First Name <br/>
+		<input type='text' name='fname' size='35' value='Rainier'><br/><br/>
+		Middle Name <br/>
+		<input type='text' name='mname' size='35' value='Luftwaffe'><br/><br/>
+		Last Name<br/>
+		<input type='text' name='lname' size='35' value='Wolfcastle'><br/><br/>
+	</div>
+	
+	<div id= 'contact'>
+		<br/>
+		Contact Information
+		<br/>	
+	</div>
+	
+	<div id='contact_form'>
+		<br/>
+		Email<br/>
+		<input type='text' name='email' size='35' value='rlwolf@uwm.edu'><br/><br/>
+		Office Phone<br/>
+		<input type='text' name='area' size='3' value='111'>-
+		<input type='text' name='fthree' size='3' value='111'>-
+		<input type='text' name='lfour' size='4' value='1111'><br/><br/>
+		Alt Phone<br/>
+		<input type='text' name='area' size='3' value='111'>-
+		<input type='text' name='fthree' size='3' value='111'>-
+		<input type='text' name='lfour' size='4' value='1111'><br/><br/>
+	</div>
+
+	<div id='contact_form2'>
+		<br/>
+		Office Location<br/>
+		<input type='text' name='office' size='35' value='EMS 942'><br/><br/>
+		Office Hours 1<br/>
+		<select>
+			<option value='Mon'>Mon</option>
+			<option value='Tue'>Tue</option>
+			<option value='Wed'>Wed</option>
+			<option value='Thu'>Thu</option>
+			<option value='Fri'>Fri</option>
+		</select>
+
+		<select>
+			<option value='1'>1</option>
+			<option value='2'>2</option>
+			<option value='3'>3</option>
+			<option value='4'>4</option>
+			<option value='5'>5</option>
+			<option value='6'>6</option>
+			<option value='7'>7</option>
+			<option value='8'>8</option>
+			<option value='9'>9</option>
+			<option value='10'>10</option>
+			<option value='11'>11</option>
+			<option value='12'>12</option>
+		</select>
+		:
+		<select>
+			<option value='00'>00</option>
+			<option value='15'>15</option>
+			<option value='30'>30</option>
+			<option value='45'>45</option>
+		</select>
+		<select>
+			<option value='AM'>AM</option>
+			<option value='PM'>PM</option>
+		</select>
+		-
+		<select>
+			<option value='1'>1</option>
+			<option value='2'>2</option>
+			<option value='3'>3</option>
+			<option value='4'>4</option>
+			<option value='5'>5</option>
+			<option value='6'>6</option>
+			<option value='7'>7</option>
+			<option value='8'>8</option>
+			<option value='9'>9</option>
+			<option value='10'>10</option>
+			<option value='11'>11</option>
+			<option value='12'>12</option>
+		</select>
+		:
+		<select>
+			<option value='00'>00</option>
+			<option value='15'>15</option>
+			<option value='30'>30</option>
+			<option value='45'>45</option>
+		</select>
+		<select>
+			<option value='AM'>AM</option>
+			<option value='PM'>PM</option>
+		</select>
+		</br></br>
+		Office Hours 2<br/>
+		<select>
+			<option value='none'></option>
+			<option value='Mon'>Mon</option>
+			<option value='Tue'>Tue</option>
+			<option value='Wed'>Wed</option>
+			<option value='Thu'>Thu</option>
+			<option value='Fri'>Fri</option>
+		</select>
+
+		<select>
+			<option value='none'></option>
+			<option value='1'>1</option>
+			<option value='2'>2</option>
+			<option value='3'>3</option>
+			<option value='4'>4</option>
+			<option value='5'>5</option>
+			<option value='6'>6</option>
+			<option value='7'>7</option>
+			<option value='8'>8</option>
+			<option value='9'>9</option>
+			<option value='10'>10</option>
+			<option value='11'>11</option>
+			<option value='12'>12</option>
+		</select>
+		:
+		<select>
+			<option value='none'></option>
+			<option value='00'>00</option>
+			<option value='15'>15</option>
+			<option value='30'>30</option>
+			<option value='45'>45</option>
+		</select>
+		<select>
+			<option value='none'></option>
+			<option value='AM'>AM</option>
+			<option value='PM'>PM</option>
+		</select>
+		-
+		<select>
+			<option value='none'></option>
+			<option value='1'>1</option>
+			<option value='2'>2</option>
+			<option value='3'>3</option>
+			<option value='4'>4</option>
+			<option value='5'>5</option>
+			<option value='6'>6</option>
+			<option value='7'>7</option>
+			<option value='8'>8</option>
+			<option value='9'>9</option>
+			<option value='10'>10</option>
+			<option value='11'>11</option>
+			<option value='12'>12</option>
+		</select>
+		:
+		<select>
+			<option value='none'></option>
+			<option value='00'>00</option>
+			<option value='15'>15</option>
+			<option value='30'>30</option>
+			<option value='45'>45</option>
+		</select>
+		<select>
+			<option value='none'></option>
+			<option value='AM'>AM</option>
+			<option value='PM'>PM</option>
+		</select>
+		</br></br>
+		
+	</div>
+	</br>
+	</br>
+	<button type='button'>Save</button>
+	<button type='button'>Cancel</button>
+
+    </div>
+</div>
+</body>
+</html>

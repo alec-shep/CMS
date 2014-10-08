@@ -1,0 +1,46 @@
+#profile
+{
+font-weight: normal;
+font-size: 150%;
+color:black;
+}
+
+#name
+{
+color:black;
+font-size: 1.5em;
+}
+
+#content
+{
+font-family: "PT Sans", sans-serif;
+font-size: 13px;
+color: #6b6b6b;
+font-weight: bold;
+}
+
+#image
+{
+float:left;
+}
+
+#name_form
+{
+margin-left:150px;
+}
+
+#contact
+{
+color:black;
+font-size: 16px;
+}
+
+#contact_form
+{
+float:left;
+}
+
+#contact_form2
+{
+margin-left:325px;
+}

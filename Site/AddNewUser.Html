@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel='shortcut icon' href='images/favicon.ico'>
+    <link rel='stylesheet' type='text/css' href='css/main.css'>
+    <link rel='stylesheet' type='text/css' href='css/navbar.css'>
+    <meta name='viewport' content='width=device-width'>
+    <title>Course Management Site</title>
+</head>
+<body>
+<div id='main-container'>
+    <div id='header'>  
+    	<div class='settings'><a href='AddNewUser.html'>Add New User</a><a href='#'>Logout</a></div>
+        <div class='uwmlogo'> 
+            <a href='https://www4.uwm.edu/' target='_new'>
+                <img src='images/logo_uwm.png'><img>
+            </a>
+        </div>
+        <div class='header-title'><h2>CMS</h2></div>
+        <div id='navbar'>
+        <ul>
+           <li class='active has-sub'><a href='#'>Courses</a>
+           	<ul>
+           		<li><a href="AssignProfToCourse.html">Assign Professor To Course</a></li>
+           		<li><a href="#">Assign TA To Course</a></li>
+           		<li><a href="CreateCourse.html">Create a Course</a></li>
+				<li><a href='CreateLabDiscussion.html'>Create a Lab/Discussion</a></li>
+           		<li><a href='courses.html'>View All Courses</a></li>
+           	</ul>
+           </li>
+           <li class='active has-sub'><a href='views.html'>Schedule Views</a>
+              <ul>
+                 <li class='has-sub'><a href='#'>View 1</a>
+                    <ul>
+                       <li><a href='#'>Sub View</a></li>
+                       <li class='last'><a href='#'>Sub View</a></li>
+                    </ul>
+                 </li>
+                 <li class='has-sub'><a href='#'>View 2</a>
+                    <ul>
+                       <li><a href='#'>Sub View</a></li>
+                       <li class='last'><a href='#'>Sub View</a></li>
+                    </ul>
+                 </li>
+              </ul>
+           </li>
+           <li><a href='personal_settings.html'>Edit Info</a></li>
+           <li class='last'><a href='UserSearch.html'>User </a></li>
+        </ul>
+        </div>
+    </div>
+    <div id='content'>
+    <h2>Add New User to CMS</h2>
+      <form action="AssignProfToCourse.html" method="post">
+      <ul style="list-style: none">
+        <li>
+          <div style="float: left; width: 90px"><span style="float: right">First Name: </span></div>
+          <div style="float: right; width: 100px"></div><input type="textbox" size="35" style="width: 100px">
+        </li>
+        <li style="padding-top: 15px">
+          <div style="float: left; width: 90px"><span style="float: right">Last Name: </span></div>
+          <div style="float: right; width: 100px"></div><input type="textbox" size="35" style="width: 100px">
+        </li>
+        <li style="height: 20px; padding-top: 15px">
+          <div style="float: left; width: 90px"><span style="float: right">Acess Level: </span></div>
+          <div style="float: right; width: 575px"> 
+            <select style="float: left; width: 130px">
+              <option>Administrator</option>
+              <option>Professor</option>
+              <option>Teaching Assistant</option>
+            </select>
+          </div>   
+        </li>
+      </ul>
+      <button style="margin-left: 150px">Save</button>
+      </form>
+    </div>
+
+</div>
+</body>
+</html>

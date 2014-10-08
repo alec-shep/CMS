@@ -1,0 +1,28 @@
+<style>
+#headerRJP {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#navRJP {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:220px;
+    float:left;
+    padding:5px; 
+}
+#sectionRJP {
+    width:350px;
+    float:left;
+    padding:10px; 
+}
+#footerRJP {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
+</style> 
